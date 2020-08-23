@@ -1,0 +1,86 @@
+
+
+
+
+
+	/* css for calculator  */
+
+.mainclc{
+	width:80%;
+	height:auto;
+	background-color:white;
+	color:white;
+	margin:0 auto;	
+	border-radius:5px;
+	padding:2px;
+}
+@media only screen and (max-width:600px){
+	.mainclc{
+	width:100%;}
+	
+}
+
+
+.section1{
+	width:100%;
+	height:70px;
+	
+	
+	
+}
+
+#display-section{
+	width:-webkit-fill-available;
+	height:70px;
+	font-weight:bold;
+	font-size:40px;
+	
+}
+.section2 input{
+	width:23%;
+	height:50px;
+	font-size:20px;
+	font-weight:bold;
+	background-color:white;	
+	margin:3px;
+	box-shadow:2px 2px 0px 0px gray;	
+     border-radius:5px; 
+     border-bottom: 2px solid #ddd;
+     border-right: 2px solid #ddd;
+	 border-top: 2px solid #ddd;
+	 border-left: 2px solid #ddd;	 
+	 cursor:pointer;
+	
+}
+
+.section2 input:focus{
+	
+	  border-top: 1px solid #ddd;
+	  border-left: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      border-right: 1px solid #ddd;
+      box-shadow:0px 0px 1px 1px #ddd;
+	
+	  outline:2px solid white;
+	
+	
+	
+
+}
+
+.clcstyle1{
+	display:block;
+	background-color:black;
+	color:white;	
+	text-align:center;
+	padding:3px;
+	border-radius:3px;
+	
+	}
+	
+.clcstyle1 a{
+	text-decoration:none;
+	color:#52ab13;
+	font-weight:bold;
+	
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<link rel="stylesheet" href="style.css" />
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+
+
+
+	</head>
+<body>
+	<h1 align="center">Calculator With JQuery</h1>
+<div class="mainclc">
+<div class="section1">
+<input type="button" id="display-section" type="number" />
+</div><br />
+<div class="section2"> 
+<input type="button" value="C" onclick="clearDisplay()"></input>
+<input type="button" value="+/-"></input>
+<input type="button" value="%" onclick="insertnumber('%')"></input>
+<input type="button" value="/" onclick="insertnumber('/')"></input>
+
+</div>
+
+<div class="section2"> 
+<input type="button" value="7" onclick="insertnumber(7)"></input>
+<input type="button" value="8" onclick="insertnumber(8)"></input>
+<input type="button" value="9" onclick="insertnumber(9)"></input>
+<input type="button" value="*" onclick="insertnumber('*')"></input>
+</div>
+
+<div class="section2"> 
+<input type="button" value="4" onclick="insertnumber(4)"></input>
+<input type="button" value="5" onclick="insertnumber(5)"></input>
+<input type="button" value="6" onclick="insertnumber(6)"></input>
+<input type="button" value="-" onclick="insertnumber('-')"></input>
+</div>
+
+<div class="section2"> 
+<input type="button" value="1" onclick="insertnumber(1)"></input>
+<input type="button" value="2" onclick="insertnumber(2)"></input>
+<input type="button" value="3" onclick="insertnumber(3)"></input>
+<input type="button" value="+" onclick="insertnumber('+')"></input>
+</div>
+
+<div class="section2"> 
+<input type="button" value="0" onclick="insertnumber(0)"></input>
+<input type="button" value="." onclick="insertnumber('.')" ></input>
+<input type="button" value="Del" onclick="delatenumber()" ></input>
+<input type="button" value="=" onclick="calculate()"></input>
+</div>
+</div>
+<p id="calculatorcredit" ></p>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
